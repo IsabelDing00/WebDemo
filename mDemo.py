@@ -10,6 +10,6 @@ driver.get("https://pro.jd.com/mall/active/3Sex5cB1TSBKKappQomcqyVno8iW/index.ht
 navbtn = driver.find_element(By.XPATH, '//*[@class="dt cw-icon"]')
 ActionChains(driver).move_to_element(navbtn).perform()
 sth = driver.find_element(By.ID, '//a[@role="menuitem" and text()="京东通信"]')
-ActionChains(drive).move_to_element(sth).click().perform()
+ActionChains(driver).move_to_element(sth).click().perform()
 
 
